@@ -21,6 +21,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<main class="site-main" id="main" role="main">
 
+
+
 					<?php while ( have_posts() ) : the_post(); ?>
 
 						<?php get_template_part( 'loop-templates/content', 'page' ); ?>
@@ -41,6 +43,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div><!-- #primary -->
 
 		</div><!-- .row end -->
+
+		<footer>
+			<div class="copyright">
+				<div class="line"></div>
+				<p>&copy; 2015/16 LABA - Libera Accademia di Belle Arti</p>
+			</div>
+		</footer>
+
 
 	</div><!-- Container end -->
 

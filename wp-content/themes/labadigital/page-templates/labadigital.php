@@ -13,7 +13,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="full-width-page-wrapper">
 
-	<div class="<?php echo esc_html( $container ); ?>" id="content">
+
 
 		<div class="row">
 
@@ -52,8 +52,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</footer>
 
 
-	</div><!-- Container end -->
+
 
 </div><!-- Wrapper end -->
-
-<?php get_footer(); ?>
